@@ -1,1 +1,25 @@
 
+.page {
+    width:100%;
+    margin:0;
+    background-color:#f7f7f7;
+    background:url("../img/bg.png");
+    font-family:Oswald,Tahoma;
+    font-size:12px;
+}
+
+    
+
+.page__head-line {
+    background-color:#7e7e7e;
+    height:5px;
+    
+    width:100%;
+}
+
+.page__line {
+
+    width: 960px;
+    margin: 0 auto;
+    margin-top:27px;    
+}
