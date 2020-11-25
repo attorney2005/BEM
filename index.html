@@ -1,28 +1,309 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <title>BEM-example</title>
     <meta charset="utf-8">
-    <link rel="stylesheet" type="text/css" href="styles/style.css">    
+    <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
+
 <body class="page">
     <div class="page__head-line">
-        
+    </div>
+
+    <div class="page__line">
+        <div class="head">
+            <div class="head__logo">
+                <div class="logo">
+                    <a href="#"><img class="b-logo__img" src="images/logo.png" /></a>
+                </div>
+            </div>
+            <div class="head__search">
+                <div class="search">
+                    <div class="search__input">
+                        <input type="text" class="input input_search" placeholder="Search">
+                    </div>
+                    <div class="search__input">
+                        <div class="button">GO</div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
     <div class="page__line">
-        
+        <div class="menu">
+            <a href="#" class='link link_menu link_menu_active'>HOME</a>
+            <a href="#" class='link link_menu'>ABOUT US</a>
+            <a href="#" class='link link_menu'>SERVICES</a>
+            <a href="#" class='link link_menu'>PARTNERS</a>
+            <a href="#" class='link link_menu'>CUSTOMERS</a>
+            <a href="#" class='link link_menu'>PROJECTS</a>
+            <a href="#" class='link link_menu'>CAREERS</a>
+            <a href="#" class='link link_menu'>CONTACT</a>
+        </div>
     </div>
     <div class="page__line">
-        
+        <div class="slider">
+            <div class="slider__current">
+                <div class="slide">
+                    <div class="slide__text">
+                        <div class="slide-text">
+                            <div class="slide__header  ">
+                                СЫНА АРЕСТОВАЛИ ЗА НАРКОТИКИ?
+                            </div>
+                            <div class="slide__subtext">
+                                Etiam adipscing ultricies commodo.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slide__image">
+                        <img class="image image_slider" width="960" height="250" src="images/handcuffs.png">
+                    </div>
+                </div>
+            </div>
+            <div class="slider__list">
+                <ul class="slide-list">
+                    <li class="slide-list__item">
+                        <div class="slider-case-element">
+                            <span class="slider-case-element__number slider-case-element__number_active">1</span>
+                            <span class="slider-case-element__text slider-case-element__text_active">LOREM IPSUM
+                                DOLOP</span>
+                        </div>
+                    </li>
+                    <li class="slide-list__item">
+                        <div class="slider-case-element">
+                            <span class="slider-case-element__number">2</span>
+                            <span class="slider-case-element__text">ULTRICIES PELLENTESQUE</span>
+                        </div>
+                    </li>
+                    <li class="slide-list__item">
+                        <div class="slider-case-element">
+                            <span class="slider-case-element__number">3</span>
+                            <span class="slider-case-element__text">ALIQUAM IPSUM</span>
+                        </div>
+                    </li>
+                    <li class="slide-list__item">
+                        <div class="slider-case-element">
+                            <span class="slider-case-element__number">4</span>
+                            <span class="slider-case-element__text">NULLAM SED MAURIS UT</span>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+
     </div>
+
     <div class="page__line">
-        
+        <div class="main">
+            <div class="main__item">
+                <div class="company">
+                    <div class="company__header">
+                        <div class="item-head">
+                            <div class="item-head__img">
+                                <img src="images/sq.png">
+                            </div>
+                            <div class="item-head__text">ABOUT WHITESQUARE</div>
+                        </div>
+                    </div>
+                    <div class="company__content">
+                        <div class="content">
+                            <img class="content__img" src="images/middle.png" />
+                            <div class="content__text">
+                                In ultricies pellentesque massa a porta. Aliquam ipsum enim, hendrerit ut porta nec,
+                                ullamcorper et nulla. In eget mi dui, sit amet scelerisque nunc. Aenean augue arcu,
+                                convallis ac vulputate vitae, mollis non lectus. Donec hendrerit lacus ac massa ornare
+                                hendrerit sagittis lacus tempor. Vivamus et dui et neque accumsan varius et ut erat.
+                                Enean
+                                augue arcu, convallis ac ultrices.
+                            </div>
+                            <div class="content__link">
+                                <p><a href="#" class="link">Read more</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- ------------------ВТОРОЙ БЛОК -->
+
+        <div class="main__item">
+            <div class="company">
+                <div class="company__header">
+                    <div class="item-head">
+                        <div class="item-head__img">
+                            <img src="images/sq.png">
+                        </div>
+                        <div class="item-head__text">A WORD FROM OUR CEO</div>
+                    </div>
+                </div>
+                <div class="company__content">
+                    <div class="content">
+                        <img class="content__img" src="images/middle.png" />
+                        <div class="content__text">
+                            In ultricies pellentesque massa a porta. Aliquam ipsum enim, hendrerit ut porta nec,
+                            ullamcorper et nulla. In eget mi dui, sit amet scelerisque nunc. Aenean augue arcu,
+                            convallis ac vulputate vitae, mollis non lectus. Donec hendrerit lacus ac massa ornare
+                            hendrerit sagittis lacus tempor. Vivamus et dui et neque accumsan varius et ut erat.
+                            Enean
+                            augue arcu, convallis ac ultrices.
+                        </div>
+                        <div class="content__link">
+                            <p>Yane Naumoski, CEO</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- ----------- ТРЕТИЙ БЛОК -->
+        <div class="main__item main__item_small">
+            <div class="company">
+                <div class="company__header">
+                    <div class="item-head">
+                        <div class="item-head__img">
+                            <img src="images/sq.png">
+                        </div>
+                        <div class="item-head__text">SERVICES</div>
+                    </div>
+                </div>
+                <div class="company__content">
+                    <div class="content">
+                        <!-- <img class="content__img" src="images/middle.png" /> -->
+                        <div class="content__text">
+                            In ultricies pellentesque massa a porta. Aliquam ipsum enim, hendrerit ut porta nec,
+                            ullamcorper et nulla. In eget mi dui, sit amet scelerisque nunc. Aenean augue arcu,
+                            convallis ac vulputate vitae, mollis non lectus. Donec hendrerit lacus ac massa ornare
+                            hendrerit sagittis lacus tempor. Vivamus et dui et neque accumsan varius et ut erat.
+                            Enean
+                            augue arcu, convallis ac ultrices.
+                        </div>
+                        <div class="content__link">
+                            <p><a href="#" class="link">Read more</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- ----------- ЧЕТВЕРТЫЙ БЛОК -->
+        <div class="main__item main__item_small">
+            <div class="company">
+                <div class="company__header">
+                    <div class="item-head">
+                        <div class="item-head__img">
+                            <img src="images/sq.png">
+                        </div>
+                        <div class="item-head__text">OUR TEAM</div>
+                    </div>
+                </div>
+                <div class="company__content">
+                    <div class="content">
+                        <div class=context__team>
+                            <ul class="team">
+                                <li class="team__item">
+                                    <div class="teammate">
+                                        <img class="teammate__img" src="images/small.png">
+                                        <div class="teammate__head">
+                                            Lorem Ipsum
+                                        </div>
+                                        <div class="teammate__text">
+                                            In ultricies pellentesque massa a porta. Aliquam ipsum enim, hendrerit ut
+                                            porta nec
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="team__item">
+                                    <div class="teammate">
+                                        <img class="teammate__img" src="images/small.png">
+                                        <div class="teammate__head">
+                                            Loren Ipsum
+                                        </div>
+                                        <div class="teammate__text">
+                                            In ultricies pellentesque massa a porta. Aliquam ipsum enim, hendrerit ut
+                                            porta nec
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="team__item">
+                                    <div class="teammate">
+                                        <img class="teammate__img" src="images/small.png">
+                                        <div class="teammate__head">
+                                            Loren Ipsum
+                                        </div>
+                                        <div class="teammate__text">
+                                            In ultricies pellentesque massa a porta. Aliquam ipsum enim, hendrerit ut
+                                            porta nec
+                                        </div>
+                                    </div>
+                                </li>
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- ---------------ПЯТЫЙ БЛОК-------------------------- -->
+        <div class="main__item main__item_small">
+            <div class="company">
+                <div class="company__header">
+                    <div class="item-head">
+                        <div class="item-head__img">
+                            <img src="images/sq.png">
+                        </div>
+                        <div class="item-head__text">SUPPORT</div>
+                    </div>
+                </div>
+                <div class="company__content">
+                    <div class="content">
+                        <div class="content__text">
+                            In ultricies pellentesque massa a porta. Aliquam ipsum enim, hendrerit ut porta nec,
+                            ullamcorper et nulla. In eget mi dui, sit amet scelerisque nunc. Aenean augue arcu,
+                            convallis ac vulputate vitae, mollis non lectus. Donec hendrerit lacus ac massa ornare
+                            hendrerit sagittis lacus tempor. Vivamus et dui et neque accumsan varius et ut erat.
+                            Enean
+                            augue arcu, convallis ac ultrices.
+                        </div>
+                        <div class="content__link">
+                            <p><a href="#" class="link">Read more</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- ------------------------ШЕСТОЙ БЛОК------------------- -->
+        <div class="main__item main__item_long">
+            <div class="company">
+                <div class="company__header">
+                    <div class="item-head">
+                        <div class="item-head__img">
+                            <img src="images/sq.png">
+                        </div>
+                        <div class="item-head__text">OUR CLIENTS</div>
+                        <div class="item-head__white-space"></div>
+                    </div>
+                </div>
+                <div class="company__content">
+                    <div class="companies">
+                        <img class="companies__img" src="images/middle.png">
+                        <img class="companies__img" src="images/middle.png">
+                        <img class="companies__img" src="images/middle.png">
+                        <img class="companies__img" src="images/middle.png">
+                        <img class="companies__img" src="images/middle.png">
+                        <img class="companies__img" src="images/middle.png">
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-    <div class="page__line">
-      
-    </div>
+
+    <div class="g-clear"></div>
+
+
     <div class="page__footer">
-       
     </div>
+
 </body>
+
 </html>
