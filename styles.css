@@ -2,8 +2,8 @@
 .page {
     width:100%;
     margin:0;
-    background-color:rgb(243, 205, 205);
-    /* background:url("../img/bg.png"); */
+    background-color:rgb(236, 235, 233);
+    background:url("..//images/bg.png");
     font-family:Oswald,Tahoma;
     font-size:12px;
 }
@@ -193,6 +193,16 @@
 .company__content {
     margin-top:15px;
 }
+
+.companies {
+    display: flex;
+    justify-content: space-between;
+}
+
+.companies__img {
+    display: block;
+}
+
 .content__img {
     float:left;
     margin-right:20px;
@@ -220,12 +230,12 @@
 
 .teammate__img {
     margin-right:10px;
-    
+    float: left;
 }
 
 .teammate__text,.teammate__head {
     color:#8f8f8f;
     font-size:11px;
+    
 }
-
 
